@@ -10,3 +10,4 @@ Der Fokus dieses Projektes liegt für mich mehr darauf wie man etwas grafisch in
 > Für Fragen zu diesem Projekt stehe ich wie immer jederzeit gerne zur Verfügung.
 
 ---
+<img src="./pictures/screenshot.png">
