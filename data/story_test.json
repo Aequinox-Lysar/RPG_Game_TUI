@@ -1,0 +1,96 @@
+{
+  "start": {
+    "text": "Du stehst vor dem Dorf. Vor dir liegt ein gefährlicher Wald.",
+    "description": "Ein friedlicher Ort, bevor das Abenteuer beginnt.",
+    "choices": [
+      {
+        "text": "Gehe in den [bold green]Wald[/bold green]",
+        "signal": "Wald",
+        "next_scene": "wald_anfang",
+        "required_items": [],
+        "gain_items": [],
+        "lose_items": [],
+        "xp": 0,
+        "chance_to_encounter_enemy": 0.5
+      },
+      {
+        "text": "Gehe zurück ins [bold green]Dorf[/bold green]",
+        "signal": "Dorf",
+        "next_scene": "dorf",
+        "required_items": [],
+        "gain_items": [],
+        "lose_items": [],
+        "xp": 0,
+        "chance_to_encounter_enemy": 0
+      }
+    ],
+    "items_in_scene": [],
+    "gegner_in_scene": [],
+    "environment_effects": []
+  },
+  "wald_anfang": {
+    "text": "Du betrittst den Wald. Es ist dunkel und unheimlich.",
+    "description": "Dichter Wald, in dem du leicht die Orientierung verlieren kannst.",
+    "choices": [
+      {
+        "text": "Kämpfe gegen den [bold green]Wolf[/bold green]",
+        "signal": "Wolf",
+        "next_scene": "kampf_wolf",
+        "required_items": [],
+        "gain_items": [],
+        "lose_items": [],
+        "xp": 10,
+        "chance_to_encounter_enemy": 1.0
+      },
+      {
+        "text": "Laufe zurück zum [bold green]Dorf[/bold green]",
+        "signal": "Dorf",
+        "next_scene": "dorf",
+        "required_items": [],
+        "gain_items": [],
+        "lose_items": [],
+        "xp": 0,
+        "chance_to_encounter_enemy": 0
+      }
+    ],
+    "items_in_scene": [
+      {
+        "id": "healing_herb",
+        "name": "Heilkräuter",
+        "icon": "🌿",
+        "beschreibung": "Kleine Kräuter, die ein wenig HP wiederherstellen."
+      }
+    ],
+    "gegner_in_scene": [
+      {
+        "id": "wolf",
+        "name": "Wolf",
+        "hp": 20,
+        "attack": 5,
+        "defense": 2,
+        "xp_reward": 10,
+        "loot": [
+          "wolf_fell"
+        ]
+      }
+    ],
+    "environment_effects": [
+      "Dunkelheit reduziert die Genauigkeit"
+    ]
+  },
+  "dorf": {
+    "text": "Du bist sicher im Dorf angekommen. Hier kannst du dich ausruhen.",
+    "description": "Das Dorf ist ruhig, die Bewohner bereiten sich auf den Abend vor.",
+    "choices": [],
+    "items_in_scene": [
+      {
+        "id": "bread",
+        "name": "Brot",
+        "icon": "🍞",
+        "beschreibung": "Stärkt ein wenig die Lebenspunkte."
+      }
+    ],
+    "gegner_in_scene": [],
+    "environment_effects": []
+  }
+}

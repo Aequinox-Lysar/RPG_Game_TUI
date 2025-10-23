@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "name": "Heiltrank",
+        "icon": "💊",
+        "type": "heilung",
+        "wert": 20,
+        "beschreibung": "Stellt 20 HP wieder her.",
+        "quantity": 3
+    },
+    {
+        "id": 2,
+        "name": "Großer Heiltrank",
+        "icon": "🧴",
+        "type": "heilung",
+        "wert": 50,
+        "beschreibung": "Stellt 50 HP wieder her.",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "name": "Magischer Trank",
+        "icon": "🧪",
+        "type": "heilung",
+        "wert": 50,
+        "beschreibung": "Stellt 50 MP wieder her.",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "name": "Schwert",
+        "icon": "🗡️",
+        "type": "waffe",
+        "wert": 5,
+        "beschreibung": "Erhöht den Angriff um 5.",
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "name": "Langschwert",
+        "icon": "⚔️",
+        "type": "waffe",
+        "wert": 10,
+        "beschreibung": "Erhöht den Angriff um 10.",
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "name": "Bogen",
+        "icon": "🏹",
+        "type": "waffe",
+        "wert": 4,
+        "beschreibung": "Erhöht den Fernkampf-Angriff um 4.",
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "name": "Schild",
+        "icon": "🛡️",
+        "type": "rüstung",
+        "wert": 3,
+        "beschreibung": "Erhöht die Verteidigung um 3.",
+        "quantity": 1
+    },
+    {
+        "id": 8,
+        "name": "Helm",
+        "icon": "⛑️",
+        "type": "rüstung",
+        "wert": 2,
+        "beschreibung": "Schützt den Kopf, +2 Verteidigung.",
+        "quantity": 1
+    },
+    {
+        "id": 9,
+        "name": "Rüstung",
+        "icon": "🥋",
+        "type": "rüstung",
+        "wert": 5,
+        "beschreibung": "Erhöht die Verteidigung um 5.",
+        "quantity": 1
+    },
+    {
+        "id": 10,
+        "name": "Goldmünze",
+        "icon": "🪙",
+        "type": "währung",
+        "wert": 1,
+        "beschreibung": "Eine glänzende Goldmünze.",
+        "quantity": 10
+    },
+    {
+        "id": 11,
+        "name": "Schatztruhe",
+        "icon": "🧰",
+        "type": "schatz",
+        "wert": 100,
+        "beschreibung": "Eine Truhe voller Gold und Schätze.",
+        "quantity": 1
+    },
+    {
+        "id": 12,
+        "name": "Feuerrolle",
+        "icon": "🔥",
+        "type": "zauber",
+        "wert": 15,
+        "beschreibung": "Verursacht 15 Feuerschaden.",
+        "quantity": 1
+    },
+    {
+        "id": 13,
+        "name": "Eisstab",
+        "icon": "❄️",
+        "type": "zauber",
+        "wert": 12,
+        "beschreibung": "Verursacht 12 Eisschaden.",
+        "quantity": 1
+    },
+    {
+        "id": 14,
+        "name": "Trank der Stärke",
+        "icon": "💪",
+        "type": "buff",
+        "wert": 5,
+        "beschreibung": "Erhöht den Angriff temporär um 5.",
+        "quantity": 1
+    },
+    {
+        "id": 15,
+        "name": "Trank der Abwehr",
+        "icon": "🛡️",
+        "type": "buff",
+        "wert": 5,
+        "beschreibung": "Erhöht die Verteidigung temporär um 5.",
+        "quantity": 1
+    },
+    {
+        "id": 16,
+        "name": "Mystisches Buch",
+        "icon": "📖",
+        "type": "quest",
+        "wert": 0,
+        "beschreibung": "Ein altes Buch voller Geheimnisse.",
+        "quantity": 1
+    },
+    {
+        "id": 17,
+        "name": "Amulett der Heilung",
+        "icon": "📿",
+        "type": "schmuck",
+        "wert": 10,
+        "beschreibung": "Regeneriert langsam HP über Zeit.",
+        "quantity": 1
+    },
+    {
+        "id": 18,
+        "name": "Teleportstein",
+        "icon": "🪨",
+        "type": "utility",
+        "wert": 0,
+        "beschreibung": "Ermöglicht eine sofortige Rückkehr ins Dorf.",
+        "quantity": 1
+    }
+]
